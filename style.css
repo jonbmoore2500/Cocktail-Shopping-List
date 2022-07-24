@@ -1,5 +1,39 @@
 /* style.css for Cocktail Shopping List app */
 
+body {
+    background-color: aqua;
+}
+
 h1 {
-text-align: center;
+    text-align: center;
+}
+
+div {
+    border: 1px solid #AC1575;
+}
+
+#searchContainer {
+    text-align: center
+}
+
+.parent {
+    padding: 1rem 1rem;
+    text-align: center;
+    height: 500px
+  }
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: top;
+    height: 90%;
+    width: 47%
+  }
+
+.rightSide {
+    border: none
+}
+
+.rightSubDiv {
+    height: 50%;
+    width: 100%
 }

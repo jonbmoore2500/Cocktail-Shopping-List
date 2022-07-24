@@ -9,6 +9,39 @@
   </head>
   <body>
       <h1>Witty Cocktail Pun</h1>
-      
+    <div id="searchContainer">
+          <h2>Let's start by choosing a cocktail</h2>
+          
+          <form id="searchForCocktail">
+            <label for="searchCocktail">Search for a cocktail:</label>
+            <input type="text" class="search" id="cocktailSearch" value="">
+            <input type="submit" class="search" value="Search">
+          </form>  
+          <form id="randomCocktail">
+            <label for="randoCocktail">Let us suggest one:</label>
+            <input type="submit" class="search" value="Surprise Me!">
+          </form>
+    </div>
+    <br>
+    <div class="resultsGrid parent">
+        <div class="leftSide child" id="resultsContainer">
+            <h2>this is the results container</h2>
+        </div>
+        <div class="rightSide child">
+            <div id="previewContainer" class="rightSubDiv">
+                <h2>this is the preview container</h2>
+            </div>
+            <br>
+            <div id="shoppingListContainer" class="rightSubDiv">
+                <h2>Shopping List</h2>
+                <ul id="shoppingListItems">
+
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
   </body>
 </html>
